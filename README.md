@@ -1,1 +1,3 @@
-# Simple Portfolio HTML App
+# Simple Portfolio
+
+HTML5 Application
