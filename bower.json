@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/jsnmgpnty/portfolio",
+  "authors": [
+    "Jason Magpantay"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "slick-carousel": "slick.js#^1.6.0",
+    "wow": "wow.js#^1.1.2",
+    "jQuery-Parallax": "https://github.com/IanLunn/jQuery-Parallax",
+    "animate.css": "^3.5.2",
+    "bootstrap-sass": "git+https://github.com/jsnmgpnty/bootstrap-sass#^3.3.7",
+    "hover": "^2.1.1",
+    "jquery.easy-pie-chart": "^2.1.6",
+    "waypoints": "^4.0.1"
+  }
+}

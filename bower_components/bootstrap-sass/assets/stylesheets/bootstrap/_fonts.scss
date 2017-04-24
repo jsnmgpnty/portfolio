@@ -1,0 +1,167 @@
+﻿// size 100
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLight.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLight.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLight.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLight.svg') format('svg');
+	font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLightItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLightItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLightItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-UltraLightItalic.svg') format('svg');
+	font-weight: 100;
+    font-style: italic;
+}
+
+// size 200
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Thin.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Thin.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Thin.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Thin.svg') format('svg');
+	font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-ThinItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-ThinItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-ThinItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-ThinItalic.svg') format('svg');
+	font-weight: 200;
+    font-style: italic;
+}
+
+// size 300
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Light.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Light.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Light.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Light.svg') format('svg');
+	font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-LightItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-LightItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-LightItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-LightItalic.svg') format('svg');
+	font-weight: 300;
+    font-style: italic;
+}
+
+// size 400
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Regular.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Regular.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Regular.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Regular.svg') format('svg');
+	font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Italic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Italic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Italic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Italic.svg') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+// size 500
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBold.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBold.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBold.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBold.svg') format('svg');
+	font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBoldItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBoldItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBoldItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-SemiBoldItalic.svg') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+// size 600
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Bold.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Bold.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Bold.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Bold.svg') format('svg');
+	font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BoldItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BoldItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BoldItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BoldItalic.svg') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+// size 700
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Heavy.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Heavy.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Heavy.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Heavy.svg') format('svg');
+	font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-HeavyItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-HeavyItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-HeavyItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-HeavyItalic.svg') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+// size 800
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Black.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Black.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Black.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-Black.svg') format('svg');
+	font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aileron';
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BlackItalic.eot');
+	src: url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BlackItalic.woff') format('woff'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BlackItalic.ttf') format('truetype'), 
+		 url('/bower_components/bootstrap-sass/assets/fonts/Aileron-BlackItalic.svg') format('svg');
+	font-weight: 800;
+	font-style: italic;
+}

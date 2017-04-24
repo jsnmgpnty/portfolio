@@ -1,0 +1,27 @@
+// Date picker
+
+.uib-datepicker-popup {
+	padding: $padding-base-vertical $padding-base-horizontal;
+	
+	.uib-daypicker {
+		.btn-sm {
+			padding: $btn-padding-vertical-small / 2 $btn-padding-horizontal-small / 2;
+			background-color: transparent;
+			border-color: transparent;
+			color: $text-color;
+
+			&.disabled,
+			&[disabled] {
+				color: $gray;
+			}
+		}
+	}
+	
+	.text-info {
+		color: $brand-primary;
+	}
+
+	.uib-button-bar {
+
+	}
+}

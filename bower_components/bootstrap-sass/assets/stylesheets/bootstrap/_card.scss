@@ -1,0 +1,63 @@
+.card {
+    padding: $padding-base-vertical * 2 $padding-base-horizontal;
+    vertical-align: top;
+    font-size: 1em;
+    margin-bottom: $margin-base-vertical;
+    background: #fff;
+    border-radius: $border-radius-base;
+    @include box-shadow(0px 2px 7px 0px rgba(0,0,0,0.06));
+
+    .card-header {
+        padding: $padding-base-vertical $padding-base-horizontal;
+        border-bottom: 1px solid $gray-light;
+    }
+
+    .card-content {
+        padding: $padding-base-vertical $padding-base-horizontal;
+        border-bottom: 1px solid $gray-light;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
+
+.card-primary {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-primary;
+}
+
+.card-secondary {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-secondary;
+}
+
+.card-tertiary {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-tertiary;
+}
+
+.card-success {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-success;
+}
+
+.card-info {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-info;
+}
+
+.card-danger {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-danger;
+}
+
+.card-warning {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid $brand-warning;
+}
+
+.card-default {
+    @extend .card;
+    border-top: ceil($margin-base-vertical / 3) solid #fff;
+}

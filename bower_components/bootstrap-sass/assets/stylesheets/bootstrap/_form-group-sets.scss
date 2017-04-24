@@ -1,0 +1,59 @@
+// form group set
+// ============================================
+// > these are  form group extensions
+
+.btn-select {
+	margin-bottom: $margin-base-vertical;
+	width: 100%;
+	height: auto;
+    display: block;
+
+    .btn {
+    	width: 100%;
+    	height: auto;
+    	padding: $btn-padding-vertical-base $btn-padding-horizontal-base;
+        text-align: left;
+    }
+}
+
+.form-group-set {
+	margin-bottom: $margin-base-vertical;
+
+    .form-group-set-header {
+        display: block;
+        font-size: 0.85em;
+        margin-bottom: $margin-small-vertical;
+    }
+
+    .form-group {
+    	position: relative;
+
+    	.form-control {
+    		//padding-left: floor($btn-padding-horizontal-base * 1.5);
+    	}
+
+	    .fa {
+	    	position: absolute;
+	    	top: $input-padding-horizontal-base;
+	    	left: $input-padding-horizontal-base;
+	        font-size: 1.4em;
+	        z-index: 5;
+	    }
+
+	    .dropdown-toggle {
+	        //padding-left: $btn-padding-horizontal-base * 3;
+	        width: 100%;
+	        text-align: left;
+	    }
+
+	    .btn-group {
+	    	width: 100%;
+	    	height: auto;
+	    }
+	}
+}
+
+.submit-button {
+	margin: $margin-base-vertical * 2 auto $margin-base-vertical * 3 auto;
+    text-align: center;
+}

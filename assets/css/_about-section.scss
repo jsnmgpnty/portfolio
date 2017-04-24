@@ -1,0 +1,29 @@
+@import 'variables';
+
+.about-section {
+	background-color: $gray-lightest;
+
+	.about-section--content {
+		padding: $padding-large-vertical * 4 0;
+
+		h2 {
+			font-weight: 300;
+			margin: $margin-large-vertical 0;
+			color: darken($gray-darker, 20%);
+			text-transform: uppercase;
+
+			span {
+				font-weight: 700;
+			}
+		}
+
+		.about-section--content-image {
+			padding: $padding-small-horizontal;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
