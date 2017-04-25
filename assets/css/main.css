@@ -6994,13 +6994,13 @@ button.close {
       height: 100%;
       width: 4px;
       background: #FFFFFF; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline::before {
           left: 50%;
           margin-left: -2px; } }
     .exp-section #exp-timeline .exp-timeline-start, .exp-section #exp-timeline .exp-timeline-end {
       position: relative; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-start, .exp-section #exp-timeline .exp-timeline-end {
           text-align: center; } }
       .exp-section #exp-timeline .exp-timeline-start .btn, .exp-section #exp-timeline .exp-timeline-end .btn {
@@ -7010,25 +7010,25 @@ button.close {
     .exp-section #exp-timeline .exp-timeline-start {
       top: -24px;
       left: -4px; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-start {
           left: initial; } }
     .exp-section #exp-timeline .exp-timeline-end {
       bottom: -24px;
       left: -4px; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-end {
           left: initial; } }
     .exp-section #exp-timeline .exp-timeline-block {
       position: relative;
       margin: 2em 0; }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-block {
           margin: 4em 0; } }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-block:nth-child(even) .exp-timeline-content {
           float: right; } }
-      @media screen and (min-width: 1200px) {
+      @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-block:nth-child(even) .exp-timeline-content::before {
           top: 24px;
           left: auto !important;
@@ -7057,7 +7057,7 @@ button.close {
         border-radius: 50%;
         background-color: #009688;
         box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 992px) {
           .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img {
             width: 60px;
             height: 60px;
@@ -7065,7 +7065,7 @@ button.close {
             margin-left: -30px;
             -webkit-transform: translateZ(0);
             -webkit-backface-visibility: hidden; } }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 992px) {
           .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img.is-hidden {
             visibility: hidden; } }
         .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img .lnr, .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img .fi {
@@ -7078,7 +7078,7 @@ button.close {
           transform: translate(-50%, -50%);
           color: #FFFFFF;
           font-size: 2em; }
-          @media screen and (min-width: 1200px) {
+          @media screen and (min-width: 992px) {
             .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img .lnr, .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img .fi {
               font-size: 3em; } }
       .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content {
@@ -7088,7 +7088,7 @@ button.close {
         border-radius: 0.25em;
         padding: 1em;
         box-shadow: 0 3px 0 #d7e4ed; }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 992px) {
           .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content {
             margin-left: 0;
             padding: 1.6em;
@@ -7106,7 +7106,7 @@ button.close {
           width: 0;
           border: 7px solid transparent;
           border-right: 7px solid white; }
-          @media screen and (min-width: 1200px) {
+          @media screen and (min-width: 992px) {
             .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content::before {
               top: 24px;
               left: 100%;
@@ -7129,7 +7129,7 @@ button.close {
           float: left;
           padding: .8em 0;
           opacity: .7; }
-          @media screen and (min-width: 1200px) {
+          @media screen and (min-width: 992px) {
             .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content .exp-date {
               position: absolute;
               width: 100%;

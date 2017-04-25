@@ -33,7 +33,7 @@
 			width: 4px;
 			background: $gray-lightest;
 
-			@include media(lg) {
+			@include media(md) {
 				left: 50%;
 				margin-left: -2px;
 			}
@@ -42,7 +42,7 @@
 		.exp-timeline-start, .exp-timeline-end {
 			position: relative;
 
-			@include media(lg) {
+			@include media(md) {
 				text-align: center;
 			}
 
@@ -57,7 +57,7 @@
 			top: -($margin-large-horizontal);
 			left: -($margin-small-horizontal / 2);
 
-			@include media(lg) {
+			@include media(md) {
 				left: initial;
 			}
 		}
@@ -66,7 +66,7 @@
 			bottom: -($margin-large-horizontal);
 			left: -($margin-small-horizontal / 2);
 
-			@include media(lg) {
+			@include media(md) {
 				left: initial;
 			}
 		}
@@ -75,18 +75,18 @@
 			position: relative;
 			margin: 2em 0;
 
-			@include media(lg) {
+			@include media(md) {
 				margin: 4em 0;
 			}
 
 			&:nth-child(even)  {
 				.exp-timeline-content {
-					@include media(lg) {
+					@include media(md) {
 						float: right;
 					}
 
 					&::before {
-						@include media(lg) {
+						@include media(md) {
 							top: 24px;
 							left: auto !important;
 							right: 100%;
@@ -128,7 +128,7 @@
 				border-radius: 50%;
 				background-color: $brand-secondary;
 				box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-				@include media(lg) {
+				@include media(md) {
 					width: 60px;
 					height: 60px;
 					left: 50%;
@@ -137,7 +137,7 @@
 					-webkit-backface-visibility: hidden;
 				}
 				&.is-hidden {
-					@include media(lg) {
+					@include media(md) {
 						visibility: hidden;
 					}
 				}
@@ -146,7 +146,7 @@
 					color: $gray-lightest;
 					font-size: 2em;
 
-					@include media(lg) {
+					@include media(md) {
 						font-size: 3em;
 					}
 				}
@@ -160,7 +160,7 @@
 				padding: 1em;
 				box-shadow: 0 3px 0 #d7e4ed;
 
-				@include media(lg) {
+				@include media(md) {
 					margin-left: 0;
 					padding: 1.6em;
 					width: 45%;
@@ -182,7 +182,7 @@
 					border: 7px solid transparent;
 					border-right: 7px solid white;
 
-					@include media(lg) {
+					@include media(md) {
 						top: 24px;
 						left: 100%;
 						border-color: transparent;
@@ -214,7 +214,7 @@
 					padding: .8em 0;
 					opacity: .7;
 
-					@include media(lg) {
+					@include media(md) {
 						position: absolute;
 						width: 100%;
 						left: 122%;
