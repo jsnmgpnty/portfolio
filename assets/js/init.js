@@ -4,6 +4,8 @@
 	$(function() {
 		initAnimation();
 		initCharts();
+		initWaypoints();
+		initNavbar();
 	});
 
 	function initAnimation() {
@@ -37,5 +39,29 @@
 			},
 			offset: '80%',
 		});
+	}
+
+	function initWaypoints() {
+		$('#site-nav').localScroll({
+			target:'body'
+		});
+	}
+
+	function initNavbar() {
+		function applyTransparency() {
+			if ($(document).scrollTop() > 50) {
+				$('#site-nav').removeClass('nav-transparent');
+				$('#site-nav .navbar-brand img').attr('src', '/assets/images/logo.svg');
+			} else {
+				$('#site-nav').addClass('nav-transparent');
+				$('#site-nav .navbar-brand img').attr('src', '/assets/images/logo-white.png');
+			}
+		}
+
+		$(window).scroll(function() {
+			applyTransparency();
+		});
+
+		applyTransparency();
 	}
 })();

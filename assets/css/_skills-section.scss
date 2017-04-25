@@ -30,7 +30,7 @@ $card-height: 250px;
 			text-align: center;
 		}
 
-		.lnr, h4 {
+		.lnr, .fi, h4 {
 			color: $gray-lightest;
 		}
 
@@ -41,7 +41,7 @@ $card-height: 250px;
 		canvas {
 		}
 
-		.lnr {
+		.lnr, .fi {
 			font-size: 4em;
 			@include xy-align;
 		}

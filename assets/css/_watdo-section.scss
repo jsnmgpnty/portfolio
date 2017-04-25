@@ -16,11 +16,11 @@ $card-height: 250px;
 			text-align: center;
 		}
 
-		.lnr, h4 {
+		.lnr, .fi, h4 {
 			color: darken($text-color, 20%);
 		}
 
-		.lnr {
+		.lnr, .fi {
 			font-size: 4em;
 		}
 

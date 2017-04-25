@@ -23,6 +23,7 @@
     "bootstrap-sass": "git+https://github.com/jsnmgpnty/bootstrap-sass#^3.3.7",
     "hover": "^2.1.1",
     "jquery.easy-pie-chart": "^2.1.6",
-    "waypoints": "^4.0.1"
+    "waypoints": "^4.0.1",
+    "jquery.localScroll": "^1.4.0"
   }
 }

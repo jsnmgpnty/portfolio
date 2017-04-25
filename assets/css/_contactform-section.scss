@@ -1,0 +1,59 @@
+@import 'variables';
+
+.contactform-section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(/assets/images/mosaic.jpg);
+	background-repeat: repeat-x repeat-y;
+	padding: $padding-large-vertical * 4 0;
+
+	.section-title {
+		color: $gray-lightest;
+	}
+
+	.contactform-section--form {
+		max-width: 300px;
+		@include center;
+
+		.form-control {
+			background-color: transparent;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+			border-bottom: 1px solid $gray-darker;
+			border-radius: 0;
+			color: $gray-lightest;
+			-webkit-transition: all 0.4s ease-in;
+			transition: all 0.4s ease-in;
+
+			@include active-element {
+				border-color: $gray-lightest;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
+
+			&::-webkit-input-placeholder {
+				color: $gray-darker;
+			}
+
+			&::-moz-placeholder {
+				color: $gray-darker;
+			}
+
+			&:-ms-input-placeholder {
+				color: $gray-darker;
+			}
+
+			&:-moz-placeholder {
+				color: $gray-darker;
+			}
+		}
+
+		textarea {
+			resize: none;
+			height: 150px;
+			margin-bottom: $margin-large-vertical * 2;
+		}
+	}
+}

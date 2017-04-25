@@ -11,9 +11,8 @@ module.exports = function(grunt) {
 					'dist/vendor.min.js' : [
 						'bower_components/jquery/dist/jquery.min.js',
 						'bower_components/bootstrap/dist/js/bootstrap.min.js',
-						'bower_components/jQuery-Parallax/scripts/jquery.localscroll-1.2.7.min.js',
-						'bower_components/jQuery-Parallax/scripts/jquery.scrollTo-1.4.2.min.js',
-						'bower_components/jQuery-Parallax/scripts/jquery.parallax-1.1.3.min.js',
+						'bower_components/jquery.localScroll/jquery.localscroll.min.js',
+						'bower_components/jquery.scrollTo/jquery.scrollTo.min.js',
 						'bower_components/wow/dist/wow.min.js',
 						'bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js',
 						'bower_components/waypoints/lib/jquery.waypoints.min.js'

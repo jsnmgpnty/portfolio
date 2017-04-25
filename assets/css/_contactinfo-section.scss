@@ -1,0 +1,36 @@
+@import 'variables';
+
+.contactinfo-section {
+	background-color: $gray-lighter;
+	padding: $padding-large-vertical * 4 0;
+
+	.contactinfo-section--item {
+		padding: $padding-base-vertical $padding-base-horizontal;
+		background-color: $gray-lightest;
+
+		span, div {
+			float: left;
+		}
+
+		span {
+			width: 60px;
+			height: 45px;
+			color: darken($gray-darker, 40%);
+			font-size: 3em;
+			font-weight: 300;
+			margin-top: -6px;
+		}
+
+		h4 {
+			text-transform: uppercase;
+			font-weight: 300;
+			color: darken($gray-darker, 40%);
+			margin: 0 0  $margin-small-vertical;
+			font-size: 1.250em;
+		}
+
+		p {
+			margin: 0;
+		}
+	}
+}
