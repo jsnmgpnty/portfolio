@@ -1,6 +1,42 @@
 @import 'variables';
 
 .footer-section {
-	background-color: $gray-darker;
+	background-color: darken($gray-darker, 50%);
 	padding: $padding-large-vertical * 2 0;
+
+	.footer-section--text {
+		text-align: center;
+		margin-bottom: $margin-large-vertical;
+
+		@include media(sm) {
+			float: left;
+			text-align: left;
+			margin-bottom: 0;
+		}
+
+		span {
+			&:first-of-type {
+				color: $gray;
+			}
+		}
+	}
+
+	.footer-section--links {
+		text-align: center;
+
+		@include media(sm) {
+			float: right;
+			text-align: right;
+		}
+
+		a {
+			font-size: 2em;
+			color: $gray-lightest;
+			text-decoration: none;
+
+			&:first-of-type {
+				margin-right: $margin-small-horizontal;
+			}
+		}
+	}
 }

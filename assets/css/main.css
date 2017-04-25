@@ -7067,7 +7067,10 @@ button.close {
           -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
           color: #FFFFFF;
-          font-size: 3em; }
+          font-size: 2em; }
+          @media screen and (min-width: 1200px) {
+            .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img .lnr, .exp-section #exp-timeline .exp-timeline-block .exp-timeline-img .fi {
+              font-size: 3em; } }
       .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content {
         position: relative;
         margin-left: 60px;
@@ -7199,6 +7202,32 @@ button.close {
       resize: none;
       height: 150px;
       margin-bottom: 32px; }
+
+.footer-section {
+  background-color: #060606;
+  padding: 32px 0; }
+  .footer-section .footer-section--text {
+    text-align: center;
+    margin-bottom: 16px; }
+    @media screen and (min-width: 768px) {
+      .footer-section .footer-section--text {
+        float: left;
+        text-align: left;
+        margin-bottom: 0; } }
+    .footer-section .footer-section--text span:first-of-type {
+      color: #DADCE2; }
+  .footer-section .footer-section--links {
+    text-align: center; }
+    @media screen and (min-width: 768px) {
+      .footer-section .footer-section--links {
+        float: right;
+        text-align: right; } }
+    .footer-section .footer-section--links a {
+      font-size: 2em;
+      color: #FFFFFF;
+      text-decoration: none; }
+      .footer-section .footer-section--links a:first-of-type {
+        margin-right: 8px; }
 
 body {
   font-family: 'Open Sans', sans-serif;

@@ -131,7 +131,11 @@
 				.lnr, .fi {
 					@include xy-align;
 					color: $gray-lightest;
-					font-size: 3em;
+					font-size: 2em;
+
+					@include media(lg) {
+						font-size: 3em;
+					}
 				}
 			}
 
