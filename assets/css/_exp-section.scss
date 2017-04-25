@@ -40,8 +40,11 @@
 		}
 		
 		.exp-timeline-start, .exp-timeline-end {
-			text-align: center;
 			position: relative;
+
+			@include media(lg) {
+				text-align: center;
+			}
 
 			.btn {
 				margin: 0 auto;
@@ -52,10 +55,20 @@
 
 		.exp-timeline-start {
 			top: -($margin-large-horizontal);
+			left: -($margin-small-horizontal / 2);
+
+			@include media(lg) {
+				left: initial;
+			}
 		}
 
 		.exp-timeline-end {
 			bottom: -($margin-large-horizontal);
+			left: -($margin-small-horizontal / 2);
+
+			@include media(lg) {
+				left: initial;
+			}
 		}
 
 		.exp-timeline-block {
