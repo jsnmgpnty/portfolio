@@ -81,6 +81,15 @@
 
 			&:nth-child(even)  {
 				.exp-timeline-content {
+					ul {
+						list-style-type: none;
+						padding: 0;
+
+						li {
+							margin-bottom: 8px;
+						}
+					}
+
 					@include media(md) {
 						float: right;
 					}

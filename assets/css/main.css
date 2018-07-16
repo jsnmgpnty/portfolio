@@ -7025,6 +7025,11 @@ button.close {
       @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-block {
           margin: 4em 0; } }
+      .exp-section #exp-timeline .exp-timeline-block:nth-child(even) .exp-timeline-content ul {
+        list-style-type: none;
+        padding: 0; }
+        .exp-section #exp-timeline .exp-timeline-block:nth-child(even) .exp-timeline-content ul li {
+          margin-bottom: 8px; }
       @media screen and (min-width: 992px) {
         .exp-section #exp-timeline .exp-timeline-block:nth-child(even) .exp-timeline-content {
           float: right; } }
