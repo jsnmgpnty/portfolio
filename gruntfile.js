@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
 	// Project configuration.
 	grunt.initConfig({
@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 					preserveComments: false
 				},
 				files: {
-					'dist/vendor.min.js' : [
+					'dist/vendor.min.js': [
 						'bower_components/jquery/dist/jquery.min.js',
 						'bower_components/bootstrap/dist/js/bootstrap.min.js',
 						'bower_components/jquery.localScroll/jquery.localscroll.min.js',
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 					preserveComments: false
 				},
 				files: {
-					'dist/app.min.js' : [
+					'dist/app.min.js': [
 						'assets/js/init.js'
 					]
 				}
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 				},
 				files: {
 					'dist/vendor.min.css': [
-						'bower_components/bootstrap/dist/css/bootstrap.css', 
+						'bower_components/bootstrap/dist/css/bootstrap.css',
 						'bower_components/animate.css/animate.css',
 						'bower_components/hover/css/hover.css',
 						'bower_components/jQuery-Parallax/style.css'
@@ -75,22 +75,22 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			js: {
-                files: [
+				files: [
 					"assets/**/*.js"
-                ],
-                tasks: ["uglify:app"],
-                options: {
-                    event: ["all"]
-                }
-            },
+				],
+				tasks: ["uglify:app"],
+				options: {
+					event: ["all"]
+				}
+			},
 			sass: {
 				files: [
-                    "assets/**/*.scss"
-                ],
-                tasks: ["sass", "cssmin"],
-                options: {
-                    event: ["all"]
-                }
+					"assets/**/*.scss"
+				],
+				tasks: ["sass", "cssmin"],
+				options: {
+					event: ["all"]
+				}
 			}
 		},
 	});
