@@ -7093,6 +7093,11 @@ button.close {
         border-radius: 0.25em;
         padding: 1em;
         box-shadow: 0 3px 0 #d7e4ed; }
+        .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content ul {
+          list-style-type: none;
+          padding: 0; }
+          .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content ul li {
+            margin-bottom: 8px; }
         @media screen and (min-width: 992px) {
           .exp-section #exp-timeline .exp-timeline-block .exp-timeline-content {
             margin-left: 0;

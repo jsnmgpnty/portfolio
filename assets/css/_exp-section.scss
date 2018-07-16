@@ -169,6 +169,15 @@
 				padding: 1em;
 				box-shadow: 0 3px 0 #d7e4ed;
 
+				ul {
+					list-style-type: none;
+					padding: 0;
+
+					li {
+						margin-bottom: 8px;
+					}
+				}
+
 				@include media(md) {
 					margin-left: 0;
 					padding: 1.6em;
