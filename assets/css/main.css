@@ -6897,7 +6897,7 @@ button.close {
     background-color: #FFFFFF;
     border: 1px solid #fcfcfc;
     margin-bottom: 16px;
-    height: 250px; }
+    height: 320px; }
     .watdo-section .watdo-section--card .watdo-section--card-icon {
       text-align: center; }
     .watdo-section .watdo-section--card .lnr, .watdo-section .watdo-section--card .fi, .watdo-section .watdo-section--card h4 {
@@ -6908,6 +6908,8 @@ button.close {
       text-transform: uppercase;
       font-size: 1.25em;
       text-align: center; }
+    .watdo-section .watdo-section--card span {
+      color: #6e7686; }
     .watdo-section .watdo-section--card p {
       color: #A5AAB5;
       text-align: center; }

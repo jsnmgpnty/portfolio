@@ -1,6 +1,6 @@
 @import 'variables';
 
-$card-height: 250px;
+$card-height: 320px;
 
 .watdo-section {
 	padding: $padding-large-vertical * 4 0;
@@ -28,6 +28,11 @@ $card-height: 250px;
 			text-transform: uppercase;
 			font-size: 1.25em;
 			text-align: center;
+		}
+
+		span {
+			// font-weight: 600;
+			color: darken($gray-dark, 20%);
 		}
 
 		p {
