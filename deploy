@@ -1,0 +1,39 @@
+pipeline {
+    agent any
+    stages {
+        stage('Deploy') {
+            steps {
+                script {
+                    withEnv(['PATH+NODE=/sbin:/usr/sbin:/usr/bin:/root/.nvm/versions/node/v14.15.3/bin']) {
+                        sh "netlify deploy --site=29aef10f-1260-4bb3-ac4c-3f5e6e12ed9d --auth=uL5wnzvZipoKcwnjOAKodO1aeJQLStuagBaibFnH7x8 --json > deploy_result.json"
+                        sh "sed -i '1d' deploy_result.json"
+                        sh 'DEPLOY_URL=$(jq ".deploy_url" deploy_result.json)'
+                        def comment = pullRequest.comment('Preview URL: $DEPLOY_URL')
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            script {
+                try {
+                    if (getContext(hudson.FilePath)) {
+                        cleanWs()
+                        dir("${env.WORKSPACE}@tmp") {
+                            deleteDir()
+                        }
+                        dir("${env.WORKSPACE}@script") {
+                            deleteDir()
+                        }
+                        dir("${env.WORKSPACE}@script@tmp") {
+                            deleteDir()
+                        }
+                    }
+                } catch (Exception e) {
+                    echo 'Exception occurred: ' + e.toString()
+                }
+            }
+        }
+    }
+}
