@@ -21,7 +21,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-cssmin": "^2.1.0",
     "grunt-contrib-uglify": "^2.3.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "node-sass": "^5.0.0"
   },
   "devDependencies": {
